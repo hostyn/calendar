@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendario</string>
+
+    <!-- Permission -->
+    <string name="permission_title">Tu calendario</string>
+    <string name="permission_body">Calendario lee y guarda eventos en los calendarios de tus cuentas (Google, tu propio servidor…) y te los recuerda con notificaciones.</string>
+    <string name="allow_access">Permitir acceso</string>
+
+    <!-- Home -->
+    <string name="go_to_today">Ir a hoy</string>
+    <string name="settings">Ajustes</string>
+    <string name="new_event">Nuevo evento</string>
+    <string name="view_month">Mes</string>
+    <string name="view_agenda">Agenda</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="yesterday">Ayer</string>
+    <string name="today_long">Hoy, %1$s</string>
+    <string name="no_events_day">Sin eventos</string>
+    <string name="no_events_today">Nada para hoy</string>
+    <string name="add">Añadir</string>
+    <string name="repeats">Se repite</string>
+    <string name="no_title">(Sin título)</string>
+
+    <!-- Times -->
+    <string name="all_day">Todo el día</string>
+    <string name="from_time">Desde las %1$s</string>
+    <string name="until_time">Hasta las %1$s</string>
+    <string name="date_range">%1$s – %2$s</string>
+
+    <!-- Event -->
+    <string name="back">Atrás</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="close">Cerrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="save">Guardar</string>
+    <string name="discard">Descartar</string>
+    <string name="discard_title">¿Descartar los cambios?</string>
+    <string name="event_gone">Este evento ya no existe</string>
+    <string name="event_gone_body">Puede que se haya borrado en otro dispositivo.</string>
+    <string name="read_only">Solo lectura</string>
+    <string name="reminders">Avisos</string>
+    <string name="description">Descripción</string>
+    <string name="guests">Invitados</string>
+    <string name="delete_event_title">¿Eliminar el evento?</string>
+    <string name="delete_repeating">Eliminar evento periódico</string>
+    <string name="save_repeating">Guardar evento periódico</string>
+    <string name="scope_this">Este evento</string>
+    <string name="scope_following">Este evento y los siguientes</string>
+    <string name="scope_all">Todos los eventos</string>
+    <string name="error_save">No se ha podido guardar el evento</string>
+    <string name="error_delete">No se ha podido eliminar el evento</string>
+    <string name="error_no_app">Ninguna app puede abrirlo</string>
+
+    <!-- Editor -->
+    <string name="edit_event">Editar evento</string>
+    <string name="add_title">Añadir título</string>
+    <string name="calendar">Calendario</string>
+    <string name="starts">Empieza</string>
+    <string name="ends">Termina</string>
+    <string name="repeat">Repetir</string>
+    <string name="add_reminder">Añadir aviso</string>
+    <string name="remove_reminder">Quitar aviso</string>
+    <string name="add_location">Añadir ubicación</string>
+    <string name="add_description">Añadir descripción</string>
+    <string name="no_calendar_title">No hay calendario donde guardarlo</string>
+    <string name="no_calendar_body">Añade una cuenta con calendario (Google, tu propio servidor…) en los ajustes del móvil y vuelve a intentarlo.</string>
+
+    <!-- Repeat -->
+    <string name="repeat_none">No se repite</string>
+    <string name="repeat_daily">Cada día</string>
+    <string name="repeat_weekdays">Entre semana (de lunes a viernes)</string>
+    <string name="repeat_weekly_on">Cada semana el %1$s</string>
+    <string name="repeat_monthly_on">Cada mes el %1$s</string>
+    <string name="repeat_on_day">día %1$d</string>
+    <string name="repeat_on_nth_weekday">%1$s %2$s</string>
+    <string name="repeat_yearly_on">Cada año el %1$s</string>
+    <string name="repeat_until">hasta el %1$s</string>
+    <string name="list_and">%1$s y %2$s</string>
+    <string-array name="ordinals">
+        <item>primer</item>
+        <item>segundo</item>
+        <item>tercer</item>
+        <item>cuarto</item>
+        <item>último</item>
+    </string-array>
+    <plurals name="repeat_every_days">
+        <item quantity="one">Cada día</item>
+        <item quantity="many">Cada %1$d días</item>
+        <item quantity="other">Cada %1$d días</item>
+    </plurals>
+    <plurals name="repeat_every_weeks_on">
+        <item quantity="one">Cada semana el %2$s</item>
+        <item quantity="many">Cada %1$d semanas el %2$s</item>
+        <item quantity="other">Cada %1$d semanas el %2$s</item>
+    </plurals>
+    <plurals name="repeat_every_months_on">
+        <item quantity="one">Cada mes el %2$s</item>
+        <item quantity="many">Cada %1$d meses el %2$s</item>
+        <item quantity="other">Cada %1$d meses el %2$s</item>
+    </plurals>
+    <plurals name="repeat_every_years">
+        <item quantity="one">Cada año</item>
+        <item quantity="many">Cada %1$d años</item>
+        <item quantity="other">Cada %1$d años</item>
+    </plurals>
+    <plurals name="repeat_times">
+        <item quantity="one">una vez</item>
+        <item quantity="many">%1$d veces</item>
+        <item quantity="other">%1$d veces</item>
+    </plurals>
+
+    <!-- Reminders -->
+    <string name="reminder_at_start">Al empezar</string>
+    <string name="reminder_on_day">El mismo día a las 0:00</string>
+    <plurals name="reminder_minutes">
+        <item quantity="one">%1$d minuto antes</item>
+        <item quantity="many">%1$d minutos antes</item>
+        <item quantity="other">%1$d minutos antes</item>
+    </plurals>
+    <plurals name="reminder_hours">
+        <item quantity="one">%1$d hora antes</item>
+        <item quantity="many">%1$d horas antes</item>
+        <item quantity="other">%1$d horas antes</item>
+    </plurals>
+    <plurals name="reminder_days">
+        <item quantity="one">%1$d día antes</item>
+        <item quantity="many">%1$d días antes</item>
+        <item quantity="other">%1$d días antes</item>
+    </plurals>
+    <plurals name="reminder_weeks">
+        <item quantity="one">%1$d semana antes</item>
+        <item quantity="many">%1$d semanas antes</item>
+        <item quantity="other">%1$d semanas antes</item>
+    </plurals>
+    <plurals name="reminder_days_before_at">
+        <item quantity="one">El día antes a las %2$s</item>
+        <item quantity="many">%1$d días antes a las %2$s</item>
+        <item quantity="other">%1$d días antes a las %2$s</item>
+    </plurals>
+    <string name="snooze">Posponer 10 min</string>
+    <string name="channel_reminders">Avisos</string>
+    <string name="channel_reminders_summary">Avisos de los eventos</string>
+
+    <!-- Settings -->
+    <string name="calendars">Calendarios</string>
+    <string name="events_settings">Eventos</string>
+    <string name="default_calendar">Calendario para eventos nuevos</string>
+    <string name="default_reminder">Aviso por defecto</string>
+    <string name="no_reminder">Sin aviso</string>
+    <string name="week_starts">La semana empieza el</string>
+    <string name="week_starts_locale">Según la región (%1$s)</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="notifications_summary">Sonido, vibración y cómo aparecen los avisos</string>
+    <string name="appearance">Apariencia</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Predeterminado del sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="dynamic_color">Colores del fondo de pantalla</string>
+    <string name="dynamic_color_summary">Usar los colores de tu fondo de pantalla</string>
+    <string name="about">Acerca de</string>
+    <string name="version">Versión</string>
+    <string name="source_code">Código fuente</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Agenda</string>
+    <string name="widget_description">Tus próximos eventos, día a día</string>
+    <string name="widget_empty">No hay eventos en el próximo año</string>
+    <string name="widget_no_permission">Abre Calendario para dar acceso</string>
+    <string name="widget_preview_weekday">Lunes</string>
+    <string name="widget_preview_date">16 noviembre</string>
+    <string name="widget_preview_event_1">Dentista</string>
+    <string name="widget_preview_event_2">Gimnasio</string>
+</resources>

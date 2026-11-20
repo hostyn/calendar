@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_bg">#FFFEF7FF</color>
+    <color name="ic_launcher_background">#FFEADDFF</color>
+    <!-- Widget picker preview; the same roles as the widget's colors. -->
+    <color name="widget_preview_background">#FFF3EDF7</color>
+    <color name="widget_preview_surface">#FFFEF7FF</color>
+    <color name="widget_preview_primary">#FF6750A4</color>
+    <color name="widget_preview_on_primary">#FFFFFFFF</color>
+    <color name="widget_preview_on_surface">#FF1D1B20</color>
+    <color name="widget_preview_on_surface_variant">#FF49454F</color>
+</resources>
